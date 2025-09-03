@@ -78,7 +78,7 @@ async def receive_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
 
 # === Запуск ===
-app = ApplicationBuilder().token("ТВОЙ_ТОКЕН_ОТ_BOTFATHER").build()
+app = ApplicationBuilder().token("8390475589:AAENaQ48Dn8cqrza_jY76_2ojXwIkdy8cyY").build()
 
 conv_handler = ConversationHandler(
     entry_points=[MessageHandler(filters.TEXT & ~filters.COMMAND, handle_menu)],
